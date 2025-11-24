@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  padding: 40px 20px;
+  background-color: #e6e6e6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.component-container {
+  max-width: 600px;
+  width: 100%;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: left;
+  font-weight: normal;
+}
+
+.intro-text {
+  line-height: 1.5;
+  margin-bottom: 25px;
+  color: #444;
+  font-size: 1.1em;
+  text-align: left;
+}
+
+.intro-text code {
+  background-color: #f0f0f0;
+  padding: 2px 4px;
+  border-radius: 3px;
+  font-family: Consolas, "Courier New", monospace;
+  color: #c7254e;
+  font-weight: bold;
+}
+
+.centered-box {
+  text-align: center;
+  border: 3px solid #2ecc71;
+  padding: 20px 10px;
+  margin: 25px 0;
+  font-size: 1.2em;
+  color: #333;
+  font-weight: normal;
+}
+
+.example-section {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 4px;
+  margin-top: 30px;
+  border: 1px solid #ddd;
+}
+
+.example-title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #333;
+  font-weight: normal;
+}
+
+.css-code-block {
+  background-color: #eee;
+  padding: 15px;
+  border-radius: 4px;
+  white-space: pre;
+  font-family: Consolas, "Courier New", monospace;
+  font-size: 1em;
+  overflow-x: auto;
+  color: #333;
+}
+
+.css-code-block .selector {
+  color: #007bff;
+  font-weight: bold;
+}
+
+.css-code-block .property {
+  color: #dc3545;
+}
+
+.css-code-block .value {
+  color: #28a745;
+}
+
+.css-code-block .unit {
+  color: #6f42c1;
+}
+
+.try-it-button {
+  display: inline-block;
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.try-it-button:hover {
+  background-color: #218838;
+}
